@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(C:\Users\Alumno\Desktop\Hoy\images\facebook.png);
+    background-size: cover;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.userlogin{
+
+background-color: blanchedalmond;
+height: 400px;
+width: 450px;
+border-radius: 100px solid #D62F5F;
+margin-top: 6%;
+text-align-last: center;
+
+}
+
+.tittle
+{
+    text-align: center;
+    font-family: "roboto";
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 30px;
+    color:darkseagreen;
+
+}
+
+.userid
+{
+    padding-top: 20px;
+
+}
+
+.userid h4
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
