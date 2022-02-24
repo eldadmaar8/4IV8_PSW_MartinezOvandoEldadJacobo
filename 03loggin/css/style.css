@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(C:\Users\Alumno\Desktop\Hoy\images\facebook.png);
+    background-image: url(F:\images\fondo.jpg);
     background-size: cover;
     color: blueviolet;
     display: flex;
@@ -51,3 +51,4 @@ text-align-last: center;
     padding-left: 5px;
 }
 
+background img 
