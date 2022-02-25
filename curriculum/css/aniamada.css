@@ -1,0 +1,19 @@
+@keyframes curriculum_animation{
+    from{
+        background-color: rgb(187, 168, 0);
+    }
+    to{
+        background-color: rgb(255, 253, 154);
+    }
+}
+
+.animada{
+    width: 100%;
+    background-color: rgb(194, 191, 0);
+    color: rgb(209, 207, 68);
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    animation: curriculum_animation 2s alternate infinite;
+}

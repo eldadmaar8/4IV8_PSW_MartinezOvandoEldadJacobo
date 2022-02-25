@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(F:\images\fondo.jpg);
+    background-image: url(...\images\fondo.jpg);
     background-size: cover;
     color: blueviolet;
     display: flex;
@@ -50,5 +50,3 @@ text-align-last: center;
     margin-right: 5px;
     padding-left: 5px;
 }
-
-background img 
