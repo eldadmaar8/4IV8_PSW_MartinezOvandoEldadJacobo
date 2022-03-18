@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 5</title>
+    <link rel="stylesheet" href="../10Problemas_Algoritmos/CCS_5/style.css">
+    <script src="../10Problemas_Algoritmos/JS/problema5.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check" >
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace" >
+            <img src="<box-icon name='spa'></box-icon>" alt="" class="logo">
+        </a>
+        
+    </nav>
+    <section class="Little">
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <th>Total de alumnos</th>
+                    <th>Hombres</th>
+                    <th>Mujeres</th>
+                    <th>No Binarie</th>
+                    <th>Hombres Porcentaje</th>
+                    <th>Mujeres Porcentaje</th>
+                    <th>No Binarie Porcentaje</tr>
+                </tr>
+
+                <tr>
+                    <td><input type="number" name="Total" id="Total_al"></td>
+                    <td><input type="number" name="Hom" id="Hombres"></td>
+                    <td><input type="number" name="Muje" id="Mujeres"></td>
+                    <td><span id="PorH"></span></td>
+                    <td><span id="PorM"></span></td>
+                </tr>
+            </table>
+            
+            <button class="boton" onclick="calcular();">Calcula el Porcentaje de alumnos</button>
+
+            
+            <img src="imagen.jpg" alt="">
+        </div>
+    </section>
+</body>
+</html>
